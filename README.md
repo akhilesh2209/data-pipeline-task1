@@ -8,16 +8,14 @@ This project implements a **complete ETL (Extract, Transform, Load) pipeline** u
 
 ## 📂 Project Structure
 
-```
 .
-├── etl_pipeline.py         # Main ETL script
+├── etl_pipeline.py # Main ETL script
 ├── data/
-│   └── titanic.csv         # Raw input dataset
+│ └── titanic.csv # Raw input dataset
 ├── processed_data/
-│   ├── features.csv        # Preprocessed features (scaled + encoded)
-│   └── target.csv          # Target labels (e.g., Survived)
-└── README.md               # Project documentation
-```
+│ ├── features.csv # Preprocessed features (scaled + encoded)
+│ └── target.csv # Target labels (e.g., Survived)
+└── README.md # Project documentation
 
 ---
 
@@ -36,35 +34,19 @@ This project implements a **complete ETL (Extract, Transform, Load) pipeline** u
    - Reads the raw Titanic dataset from `data/titanic.csv`.
 
 2. **Transform**
-   - Handles missing values
-   - Encodes categorical variables using `OneHotEncoder`
-   - Scales numerical features using `StandardScaler`
+   - Handles missing values.
+   - Encodes categorical variables using `OneHotEncoder`.
+   - Scales numerical features using `StandardScaler`.
 
 3. **Load**
-   - Saves processed features to `processed_data/features.csv`
-   - Saves target labels to `processed_data/target.csv`
+   - Saves processed features to `processed_data/features.csv`.
+   - Saves target labels to `processed_data/target.csv`.
 
 ---
 
 ## ▶️ How to Run
 
 1. **Install dependencies:**
-   ```bash
-   pip install pandas scikit-learn
-   ```
 
-2. **Run the pipeline:**
-   ```bash
-   python etl_pipeline.py
-   ```
-
-3. **Output files:**
-   - Transformed features: `processed_data/features.csv`
-   - Target labels: `processed_data/target.csv`
-
----
-
-## 📝 Notes
-
-- The target column used is `Survived` from the Titanic dataset.
-- You can replace the input dataset in `data/` and update the script if needed.
+```bash
+pip install pandas scikit-learn numpy
