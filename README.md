@@ -51,7 +51,6 @@ This project implements a **complete ETL (Extract, Transform, Load) pipeline** u
 ```bash
 pip install pandas scikit-learn numpy
 ```
----
 
 2. **Run the ETL pipeline script:**
 
