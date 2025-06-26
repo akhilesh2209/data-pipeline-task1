@@ -1,5 +1,18 @@
 # 📊 Data Pipeline Development – Task 1 (CodTech Internship)
 
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: WUNA AKHILESH
+
+*INTERN ID*: CT04DF985
+
+*DOMAIN*: DATA SCIENCE
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTHOSH KUMAR
+
+
 ## 🧑‍💻 Project Description
 
 This project implements a **complete ETL (Extract, Transform, Load) pipeline** using Python, `pandas`, and `scikit-learn`. It processes a raw dataset (`titanic.csv`), performs preprocessing and transformation, and outputs clean, ready-to-use machine learning data files.
